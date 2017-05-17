@@ -81,6 +81,7 @@ xlabel('$t$ (sec)','interpreter', 'latex');
 ylabel('$E$','interpreter','latex');
 l = legend('E_{tot}', 'E_k', 'E_p'); set(l,'fontsize',6,'location','southeast');
 
+print -dpdf ./figs/figure1.pdf
 
 figure;
 plot(t(1:end-1),timesteps');
@@ -88,3 +89,4 @@ xlabel('$t$ (sec)','interpreter', 'latex');
 ylabel('$\Delta t_i$', 'interpreter', 'latex');
 title('Timesteps of particles (color = particle)','interpreter','latex');
 
+print -dpdf ./figs/figure2.pdf
