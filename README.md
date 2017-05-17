@@ -3,4 +3,4 @@ N-body gravity simulation with adaptive multilevel time stepping
 
 Computational Astrophysics Course Project, ETH Zurich, 2012
 
-mikael.mieskolainen [miukumauku] cern.ch
+mikael.mieskolainen@cern.ch
